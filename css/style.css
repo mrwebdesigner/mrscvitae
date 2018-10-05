@@ -3,13 +3,13 @@
 * GENERAL SETTINGS
 **************************************************/	
 	
-body{font-family: 'Kanit', sans-serif;}	
+body{font-family: 'Hind Madurai', sans-serif;}	
 .solid-container {
   width: 100vw;
   height: 100vh;
   position: relative;
   perspective: 2000px;
-  background: #222;
+  background:#222;
 }
 
 /*************************************************
@@ -49,8 +49,10 @@ body{font-family: 'Kanit', sans-serif;}
 }
 
 #solid .first {
-  transform: rotateY(0deg) translateZ(50vw);
-  background: #FF6600;  
+  transform: rotateY(0deg) translateZ(50vw);  
+  background-image:url("../images/student-849825_960_720.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 #solid .second {
@@ -107,24 +109,17 @@ body{font-family: 'Kanit', sans-serif;}
 **************************************************/	
 .form-inline{margin:0 40% 0 20%}
 .navbar-brand-container{position:relative;float:left;}
-.previous img, .next img{width:48px}
+.previous img, .next img{width:30px}
 .form-inline h1{min-width:180px;text-align:center}
 #pageName{color:#D5D3D0}
 
 h1 span#pageName {
 padding:0 5px;
 text-transform:uppercase;
-text-shadow: 0 1px 1px #bbb,
-		0 2px 0 #999, 
-		0 3px 0 #888, 
-		0 4px 0 #777, 
-		0 5px 0 #666, 
-		0 6px 0 #555, 
-		0 7px 0 #444, 
-		0 8px 0 #333, 
-		0 9px 7px #302314;
+font-size:40px;
+color:black;
 }
-.wrap .bg-light{background-color:#444C4A!important}
+.wrap .bg-light{background-color:#F7F5F5!important;}
 
 
 #circle-shape-example { 
@@ -194,8 +189,10 @@ article h1, article h2 {
 
 .presentation{
 	padding:30px;
-	background-color:rgba(58,58,58,0.5);
+	background-color:rgba(58,58,58,0.8);
 	border-radius:20px;
+	min-width:92vw;
+	text-align:center;
 }
 
 /*************************************************
