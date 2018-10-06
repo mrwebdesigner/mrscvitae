@@ -107,7 +107,7 @@ body{font-family: 'Hind Madurai', sans-serif;}
 /*************************************************
 * CUSTOM SETTINGS
 **************************************************/	
-.form-inline{margin:0 40% 0 20%}
+.form-inline{margin:0 43% 0 0}
 .navbar-brand-container{position:relative;float:left;}
 .previous img, .next img{width:30px}
 .form-inline h1{min-width:180px;text-align:center}
